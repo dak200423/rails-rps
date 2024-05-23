@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   
   get("/paper", { :controller => "lion", :action => "tiger" })
 
- # get ("/scissors", { :controller => "", :action => "" })
+  get("/scissors", { :controller => "penguin", :action => "bird" })
 
-  # get ("/", { :controller => "", :action => "" })
+  # get("/", { :controller => "", :action => "" })
 end
